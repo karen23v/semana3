@@ -12,7 +12,7 @@ void main() {
   
   double davidAmount = totalAmount - (josueAmount + tamarAmount + calebAmount + danielAmount);
 
-  // Print the results
+ 
   print("Josué: \S${josueAmount.toStringAsFixed(2)} soles");
   print("Tamar: \S${tamarAmount.toStringAsFixed(2)} soles");
   print("Caleb: \S${calebAmount.toStringAsFixed(2)} soles");
