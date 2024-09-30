@@ -4,6 +4,7 @@
  // • Caleb: 23% del monto total recibido entre Josué y Daniel
  // • Daniel: 25% de la cantidad a repartir
  // • David: lo que queda del dinero a repartir. Dada la cantidad de dinero a repartir, diseñe un programa en lenguaje Dart que determine cuánto de dinero recibirá cada hijo.//
+
 void main() {
 
   double totalAmount = 1000.0; 
@@ -18,7 +19,7 @@ void main() {
   
   double davidAmount = totalAmount - (josueAmount + tamarAmount + calebAmount + danielAmount);
 
- 
+  // Print the results
   print("Josué: \S${josueAmount.toStringAsFixed(2)} soles");
   print("Tamar: \S${tamarAmount.toStringAsFixed(2)} soles");
   print("Caleb: \S${calebAmount.toStringAsFixed(2)} soles");
